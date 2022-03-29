@@ -1,0 +1,18 @@
+{
+  "name": "Color Picker",
+  "description": "A Color Picker which allows to pick any color from the webpage.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icons/16.webp",
+    "48": "icons/48.webp",
+    "128": "icons/128.webp"
+  }
+}
